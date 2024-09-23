@@ -1,0 +1,80 @@
+* {
+	box-sizing: border-box;
+}
+
+.container {
+overflow: auto;
+}
+
+.pad-change1 {
+background-color: hotpink;
+ width: 50%;
+ float: left;
+ border: 1px solid black;
+ height: 60px;
+ line-height: 60px;
+ text-align: center;
+}
+ .pad-change2 {
+ background-color: aquamarine;
+ width: 50%;
+ float: left;
+ border: 1px solid black;
+ height: 60px;
+ line-height: 60px;
+ text-align: center;
+}
+.pad-change3 {
+ background-color: lightgrey;
+ width: 100%;
+ float: left;
+ border: 1px solid black;
+ height: 60px;
+ line-height: 60px;
+ text-align: center;
+}
+.pads {
+	display: grid;
+	grid-template-columns: auto auto auto auto auto auto;
+	gap: 5px;
+	justify-content: center;
+	min-height: 100px; 
+    background-color: lightgrey;
+}
+
+
+.btn {
+	border: 1px solid black;
+	float: left;
+	color: black;
+	background-color: white;
+	margin: 5px;
+	border-radius: 10px;
+	box-shadow: 0px 8px #bbb;
+	width: 12vw;
+	height: 12vw;
+	font-size: 2vw;
+	justify-content: center;
+    align-items: center;
+	display: flex;
+	transition: transform 0.1s ease;
+}
+
+.btn:focus {
+    box-shadow: 0 3px #999;
+    transform: translateY(5px);
+}
+
+
+#pad2 {
+	display: none;
+}
+
+#btn1, #btn2, #btn3, #btn4, #btn5, #btn6, #btn7, #btn8, #btn9, #btn10, #btn11, #btn12   {
+	background-color: hotpink;
+}
+#btn13, #btn14, #btn15, #btn16, #btn17, #btn18, #btn19, #btn20, #btn21, #btn22, #btn23, #btn24 {
+	background-color: aquamarine;
+}
+
+
